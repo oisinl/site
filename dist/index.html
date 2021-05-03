@@ -4,7 +4,7 @@
     <title>Jiclo</title>
    </head>
 <body>
-
+<img src="./img/mesa.jpg" id="bg" alt="">
 </body>
 
   <style>
@@ -20,17 +20,14 @@ body, html {
   height: 100%;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("./img/mesa.jpg");
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 .header {
   background-color: lightgreen;
