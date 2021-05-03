@@ -1,0 +1,529 @@
+
+<link rel="icon" href="/images/icon.png">
+<head>
+  <link href="./public/css/all.css" rel="stylesheet" type="text/css"/>
+  <link href="./public/bootstrap.css" rel="bootstrap" type="text/css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="icon" href="./images/icon.png">  
+    <title>Courses Page</title>
+    <meta name="google-signin-client_id" content="144557848081-9hri5pcdp3ik83mfdk4lf9b5p0q7i5cc.apps.googleusercontent.com">
+</head>
+<div class ="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-background-color: rgb(99, 159, 214);">
+      <a href="index.html"><img src="./images/output-onlinepngtools.png" alt="transparentLogo" width="80px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" id ="navbutton" href="index.html"><strong>Home</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id ="navbutton" href="profilepage.html"><strong>Profile</strong></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id ="navbutton" href="golfCourses.html"><strong>Courses</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id ="navbutton" href="Records.html"><strong>Records</strong></a>
+          </li>     
+          <li class="nav-item">
+<!--<<<<<<< HEAD-->
+            <a class="nav-link" id="navbutton" href="tips.html"><strong>Tips</strong></button></a>
+          </li>
+        </div>    
+                                                
+  </nav>
+</div>
+<body>
+  <div class="row">
+    <div class="leftcolumn" style="width:67%">
+      <div class="card">
+        <h1>Top Courses of Ireland</h1>
+      </div>
+      <div class="card">
+        <h2>#1: Royal Portrush Golf Club</h2>
+        <h5>Coleraine, Co. Antrim, Northern Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/royalPortrush1.jpg" alt="royalPortrush1" style="width:33%" style="height: 99%">
+            <img src="./images/royalPortrush2.jpg" alt="royalPortrush2" style="width:33%" style="height: 99%">
+            <img src="./images/royalPortrush3.jpg" alt="royalPortrush3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+            In 1951, Royal Portrush first hosted the Open Championship, the oldest of golf's major championships.
+            it was the first Open not held on the island of Great Britain. The Open returned to Portrush in 2019,
+            and it will host twice more by 2040. It also hosted the Irish Open in 2012, the first in Northern Ireland since 1953.
+            The Dunluce Links course is considered to be one of the best courses in the world.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#2: Portmarnock Golf Club</h2>
+        <h5>Portmarnock, Co. Dublin, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/portmarnock1.jpg" alt="portmarnock1" style="width:33%" style="height: 99%">
+            <img src="./images/portmarnock2.jpg" alt="portmarnock2" style="width:33%" style="height: 99%">
+            <img src="./images/portmarnock3.jpg" alt="portmarnock3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+            Located 15 minutes from Dublin Airport, Portmarnock Golf Club sits majestically on a narrow tongue of shallow duneland.
+            Portmarnock has hosted 19 stagings of the European Tour's Irish Open Championship.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#3: Royal County Down Golf Club</h2>
+        <h5>Newcastle, Co. Down, Northern Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/royalCountyDown.jpg" alt="RoyalCountyDown" style="width:33%" style="height: 99%">
+            <img src="./images/royalCountyDown2.jpg" alt="RoyalCountyDown2" style="width:33%" style="height: 99%">
+            <img src="./images/royalCountyDown4.jpg" alt="RoyalCountyDown4" style="width:33%" style="height: 99%">
+        </div>
+        <p> 
+          Royal County Down opened 131 years ago on 23 March 1889 and is one of the oldest golf clubs in Ireland.
+          It has two 18-hole links courses, the Championship Course and the Annesley Links.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#4: Lahinch Golf Club</h2>
+        <h5>Lahinch, Co. Clare, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/lahinch1.jpg" alt="lahinch1" style="width:33%" style="height: 99%">
+            <img src="./images/lahinch2.jpg" alt="lahinch2" style="width:33%" style="height: 99%">
+            <img src="./images/lahinch3.jpg" alt="lahinch3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+          Lahinch Golf Club is a links golf course in western Ireland, in the town of Lahinch on the northwest coast of County Clare.
+           It is situated approximately 32 kilometres northwest of the town of Ennis.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#5: Tralee Golf Club</h2>
+        <h5>Tralee, Co. Kerry, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/tralee1.jpg" alt="tralee1" style="width:33%" style="height: 99%">
+            <img src="./images/tralee2.jpg" alt="tralee2" style="width:33%" style="height: 99%">
+            <img src="./images/tralee3.jpg" alt="tralee3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+          Tralee Golf Club is a legendary links golf course designed by Arnold Palmer with unprecedented views of the Atlantic Ocean
+          In October 2009, Tralee Golf Club celebrated its 25th anniversary since its move from the town of Tralee
+           to its present location on the edge of the Atlantic Ocean at West Barrow, Co. Kerry.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#6: Ballybunion Golf Club</h2>
+        <h5>Ballybunion, Co. Kerry, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/ballybunion1.jpg" alt="ballybunion1" style="width:33%" style="height: 99%">
+            <img src="./images/ballybunion2.jpg" alt="ballybunion2" style="width:33%" style="height: 99%">
+            <img src="./images/ballybunion3.jpg" alt="ballybunion3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+          Considered one of the finest links courses in the world, Ballybunion's reputation grew over time.
+           Unfortunately, its remote locale on the Irish southwest coast has prevented the course from being selected for many top championship events.
+           Still, a number of the world's best players have found their way to the famed course.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#7: Waterville Golf Links</h2>
+        <h5>Waterville, Co. Kerry, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/waterville1.jpg" alt="waterville1" style="width:33%" style="height: 99%">
+            <img src="./images/waterville2.jpg" alt="waterville2" style="width:33%" style="height: 99%">
+            <img src="./images/waterville3.jpg" alt="waterville3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+          On the Ring of Kerry in County Kerry, sits Waterville Golf Links. It has hosted international events such as the 'Kerrygold International Classic'.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#8: County Louth Golf Club</h2>
+        <h5>Drogheda, Co. Louth, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/louth1.jpg" alt="louth1" style="width:33%" style="height: 99%">
+            <img src="./images/louth2.jpeg" alt="louth2" style="width:33%" style="height: 99%">
+            <img src="./images/louth3.jpg" alt="louth3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+          County Louth Golf Club is a links golf course located in the village of Baltray, County Louth in Ireland, 5km from the town of Drogheda.
+          The Irish Open professional golf tournament which is part of the PGA European Tour has been held there on two occasions, in 2004 and 2009.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#9: The European Club</h2>
+        <h5>Arklow, Co. Wicklow, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/european1.jpg" alt="european1" style="width:33%" style="height: 99%">
+            <img src="./images/european2.jpg" alt="european2" style="width:33%" style="height: 99%">
+            <img src="./images/european3.jpg" alt="european3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+          Founded in 1987, The European Club is one of the most prestigious in Ireland, designed by Pat Ruddy.
+        </p>
+      </div>
+      <div class="card">
+        <h2>#10: Adare Manor</h2>
+        <h5>Adare, Co. Limerick, Ireland</h5>
+        <div class="fakeimg" style="height:30%; width:100%">
+            <img src="./images/adare1.jpg" alt="adare1" style="width:33%" style="height: 99%">
+            <img src="./images/adare2.jpg" alt="adare2" style="width:33%" style="height: 99%">
+            <img src="./images/adare3.jpg" alt="adare3" style="width:33%" style="height: 99%">
+        </div>
+        <p>
+          The Adare Manor Golf Club, which was established in 1900, is an 18-hole championship course designed by Tom Fazio.
+          It was the venue for the Irish Open in 2007 and 2008. It also played host to the J.P McManus Invitational Pro Am in 2005 and 2010.
+          It has been announced Adare Manor will host the 2026 Ryder Cup.
+        </p>
+      </div>
+    </div>
+      <div class="rightcolumn">
+        <div class="card"  style="margin-top: 40px">
+          <h3>Map of Courses</h3>
+        <!--<div class="card">
+          
+        </div>
+        The div element for the map -->
+        <div id="map"></div>
+        <div class="card"><h3>Map Functionality</h3>
+          <p>Zoom in on individual golf courses and check out what the place is like in street view!</p></div>
+        </div>
+          <!--<h2>News</h2>
+            <div class="fakeimg" style="height:100%;">Image</div>-->
+            <div class="card">
+            <a class="twitter-timeline" data-height="1000" data-chrome="nofooter transparent" href="https://twitter.com/SkySportsGolf?ref_src=twsrc%5Etfw"></a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <p></p>
+        <div class="card">
+          <h2>Upcoming PGA Golf Tournaments</h2>
+          <div class="card">
+            <div class ="bgimg">
+          <h3>Tournament of Champions</h3>
+          <p>Date: Jan 7-10, 2021</p>
+          <p>Course: Kapalua Plantation Course, Hawaii</p>
+          <p>Purse: $6,700,000</p>
+
+        </div>
+        </div>
+        <div class="card">
+          <h3>Sony Open</h3>
+          <p>Date: Jan 14-17, 2021</p>
+          <p>Course: Wai'alae Country Club, Hawaii</p>
+          <p>Purse: $6,600,000</p>
+
+
+        </div>
+        <div class="card">
+          <h3>The American Express</h3>
+          <p>Date: Jan 21-24, 2021</p>
+          <p>Course: PGA West Private Clubhouse & Golf Courses, California</p>
+          <p>Purse: $6,700,000</p>
+        </div>
+        <div class="card">
+          <h3>Farmers Insurance Open</h3>
+          <p>Date: Jan 28-31, 2021</p>
+          <p>Course: Torrey Pines South Course, California</p>
+          <p>Purse: $7,500,000</p>
+
+        </div>
+        <div class="card">
+          <h3>Phoenix Open</h3>
+          <p>Date: Feb 4-7, 2021</p>
+          <p>Course: TPC Scottsdale - Stadium Course</p>
+          <p>Purse: $7,300,000</p>
+
+        </div>
+        <div class="card">
+          <h3>AT&T Pebble Beach Pro-Am</h3>
+          <p>Date: Feb 11-14, 2021</p>
+          <p>Course: Pebble Beach Golf Links, California</p>
+          <p>Purse: $7,800,000</p>
+
+        </div>
+        <div class="card">
+          <h3>Genesis Open</h3>
+          <p>Date: Feb 18-21, 2021</p>
+          <p>Course: Riviera Golf Course, California</p>
+          <p>Purse: $9,300,000</p>
+
+        </div>
+        <div class="card">
+          <h3>Puerto Rico Open</h3>
+          <p>Date: Feb 25-28, 2021</p>
+          <p>Course: Coco Beach Golf & Country Club, Puerto Rico</p>
+          <p>Purse: $3,000,000</p>
+ 
+        </div>
+        <div class="card">
+          <h3>WCG-Mexico Championship</h3>
+          <p>Date: Feb 25-28, 2021</p>
+          <p>Course: Club de Golf Chapultepec</p>
+          <p>Purse: $10,500,000</p>
+
+        </div>
+        <div class="card">
+          <h3>Arnold Palmer Invitational</h3>
+          <p>Date: Mar 4-7, 2021</p>
+          <p>Course: Bay Hill Golf Course</p>
+          <p>Purse: $9,300,000</p>
+
+        </div>
+      </div>
+  </div>
+  <div id="modal" class="modal">
+    <form class="modal-content animate" action="" method="post"> <!--php to handle forms goes here-->
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('modal').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="/images/output-onlinepngtools.png"  alt="Logo" class="logo">
+      </div>
+  
+      <div class="container">
+        
+        <div id="my-signin2"></div>
+        <script>
+          function onSuccess(googleUser) {
+            console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+          }
+          function onFailure(error) {
+            console.log(error);
+          }
+          function renderButton() {
+            gapi.signin2.render('my-signin2', {
+              'scope': 'profile email',
+              'width': 240,
+              'height': 50,
+              'longtitle': true,
+              'theme': 'dark',
+              'onsuccess': onSuccess,
+              'onfailure': onFailure
+            });
+          }
+        </script>
+      
+        <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+            
+            
+          </div>
+        
+        <div id="name"></div>
+        <script>startApp();</script>
+    </form>
+  </div>
+  
+      <script>
+        // Get the modal
+  var modal = document.getElementById('modal');
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  
+  
+  
+  var modal2 = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("editInfo");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+      </script>
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlRGkZ_o3YR6YuxPO03iy81MSpjdhlTzQ&callback=initMap&libraries=&v=weekly" defer>
+    </script>
+    </body>
+
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 800px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location
+        const athlone = { lat: 53.4239, lng: -7.9407 };
+        const royalportrush = { lat: 55.1997, lng: -6.6354 };
+        const portmarnock = { lat: 53.4072, lng: -6.1238 };
+        const royalcountydown = { lat: 54.2179, lng: -5.8832 };
+        const lahinch = { lat: 52.9402, lng: -9.3536 };
+        const tralee = { lat: 52.3013, lng: -9.8578 };
+        const ballybunion = { lat: 52.4948, lng: -9.6749 };
+        const waterville = { lat: 51.8295, lng: -10.1745 };
+        const countylouth = { lat: 53.7372, lng: -6.2672 };
+        const european = { lat: 52.8597, lng: -6.0691 };
+        const adare = { lat: 52.5639, lng: -8.7786 };
+        // The map, centered at Athlone
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 6.95,
+          center: athlone,
+        });
+        
+        const marker1 = new google.maps.Marker({
+          position: royalportrush,
+          map: map,
+        });
+        const marker2 = new google.maps.Marker({
+          position: portmarnock,
+          map: map,
+        });
+        const marker3 = new google.maps.Marker({
+          position: royalcountydown,
+          map: map,
+        });
+        const marker4 = new google.maps.Marker({
+          position: lahinch,
+          map: map,
+        });
+        const marker5 = new google.maps.Marker({
+          position: tralee,
+          map: map,
+        });
+        const marker6 = new google.maps.Marker({
+          position: ballybunion,
+          map: map,
+        });
+        const marker7 = new google.maps.Marker({
+          position: waterville,
+          map: map,
+        });
+        const marker8 = new google.maps.Marker({
+          position: countylouth,
+          map: map,
+        });
+        const marker9 = new google.maps.Marker({
+          position: european,
+          map: map,
+        });
+        const marker10 = new google.maps.Marker({
+          position: adare,
+          map: map,
+        });
+      }
+    </script>
+
+  <style>
+
+      body {
+  font-family: Arial;
+  
+  background: #f1f1f1;
+}
+/* Header/Blog Title */
+.header {
+  background-color: lightgreen;
+  padding: 0px;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  padding: 20px;
+  width: 75%;
+}
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 32%;
+  padding-left: 0px;
+}
+/* Fake image */
+.fakeimg {
+  background-color:gainsboro;
+  width: 100%;
+  padding: 20px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color: ghostwhite;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+logo{
+          height: 50%;
+          width: 50%;
+        }
+        .container {
+        padding: 16px;
+        }
+        span.psw {
+        float: right;
+        padding-top: 16px;
+        }
+
+.modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 60px;
+        }
+        /* Modal Content/Box */
+        .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        }
+        /* The Close Button (x) */
+        .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+        color: red;
+        cursor: pointer;
+        }
+
+.animate {
+        -webkit-animation: animatezoom 0.5s;
+        animation: animatezoom 0.5s
+        }
+        @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+        }
+        
+        @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+        }
+
+
+        .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+</style>
