@@ -4,20 +4,18 @@
     <title>Jiclo</title>
    </head>
 
-<body>
-  <div>
+   <!-- The video -->
+   <video autoplay muted loop id="smoke">
+     <source src="/img/smoke.mp4" type="video/mp4">
+   </video>
 
-    <div>
-      <div style='position:relative; padding-bottom:calc(55.73% + 44px)'>
-        <iframe src='https://gfycat.com/ifr/AromaticSnarlingJaguar' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen>
-        </iframe>
-      </div>
-      <p> <a href="https://gfycat.com/aromaticsnarlingjaguar-4k-background-animation-4k-free-background"></a></p>
-    </div>
-
-  </div>
-</body>
-
+   <!-- Optional: some overlay text to describe the video -->
+   <div class="content">
+     <h1>Heading</h1>
+     <p>Lorem ipsum...</p>
+     <!-- Use a button to pause/play the video with JavaScript -->
+     <button id="myBtn" onclick="myFunction()">Pause</button>
+   </div>
 
   <style>
 
@@ -136,5 +134,39 @@ logo{
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
 </style>
